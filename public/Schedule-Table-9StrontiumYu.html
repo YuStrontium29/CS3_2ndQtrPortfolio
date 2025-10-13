@@ -13,9 +13,14 @@
     <!-- Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
+<header>
+    <nav aria-label="Main navigation">
+        <li><a class="brand" href="/index.html" aria-current="page">Home</a></li>
+    </nav>
+</header>
 <body style="background-color: rgb(255, 255, 255)";>
-    <h2 style="color:rgba(255, 255, 255, 0.452); text-align: center;"> super secret text</h2>
-    <h5 style="color:rgba(0, 0, 0, 0.795);">Yu, Xian Elric C.   Sr30   9-Strontium</h4>
+    <h2> super secret text</h2>
+    <h5>Yu, Xian Elric C.   Sr30   9-Strontium</h4>
     <table class="center">
         <tr>
             <th>Time During Thursday</th>
@@ -102,6 +107,68 @@
         text-decoration:underline;
         color: #020d49;
     }
+
+        body {
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+    line-height: 1.6;
+    color: #222;
+    }
+
+    header, footer {
+    background: #f5f5f5;
+    padding: 12px 16px;
+    }
+
+    main {
+    padding: 16px;
+    }
+
+    /* Navigation */
+    nav {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    }
+
+    .brand {
+    font-weight: 600;
+    text-decoration: none;
+    color: #222;
+    }
+
+    .nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+    }
+
+    .nav-list a {
+    text-decoration: none;
+    color: #0066cc;
+    }
+
+    .nav-list a[aria-current="page"] {
+    font-weight: 600;
+    }
+
+    /* Footer */
+    .social-list {
+    list-style: none;
+    margin: 0 0 8px 0;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+    }
+
+    .social-list a {
+    text-decoration: none;
+    color: #0066cc;
+    }
+
+    copyright { display: block; }
 </style>
 </body>
 </html>
