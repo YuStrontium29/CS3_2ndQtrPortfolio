@@ -44,6 +44,11 @@
     font-weight: 600;
     }
 
+    h2
+    {
+      color:green;
+    }
+
     /* Footer */
     .social-list {
     list-style: none;
