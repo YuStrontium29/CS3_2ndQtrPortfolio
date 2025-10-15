@@ -74,7 +74,7 @@
     allowfullscreen></iframe>
     <p class="right-text">Blue face follows you because he is lonely</p>
     <footer>
-        <ul class="socMeds">
+        <ul class="bottomText">
             <li><a href="https://github.com/YuStrontium29" target="_blank">My Github Profile</a></li>
             <li><a href="https://github.com/YuStrontium29/CS3_2ndQtrPortfolio" target="_blank">Q2 Github Repository</a></li>
             <li><a href="https://github.com/tay-lor-AI/cstable1" target="_blank">Github Repository We Were Supposed To Collab On</a></li>
@@ -82,6 +82,10 @@
                 Other SocMeds To Put Here I Think
             </a></li>
         </ul>
+          <p class="bottomText"> &copy; <span id="year"></span> Xian Yu. All rights reserved.</p>
+        <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
     </footer>
 <style>
     table, th, td 
@@ -162,10 +166,12 @@
             background-color:  #CED5DA;
             color: #9c98a9;
     }
-    .socMeds
+    .bottomText
     {
-
-    }
+        text-decoration: none;
+        text-align: center;
+        list-style-type: none;
+    } 
     .hiding
     {
         color:rgb(255, 235, 245);
