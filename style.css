@@ -35,7 +35,8 @@
     gap: 12px;
     }
 
-    .nav-list a {
+    .nav-list a 
+    {
     text-decoration: none;
     color: #0066cc;
     }
