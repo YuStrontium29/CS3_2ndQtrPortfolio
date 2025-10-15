@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="icon" href="images/csFavicon.png">
     <title>Strontium Thursday Schedule</title>
     <meta name="description" content="A simple Grade 9 template with favicon, meta tags, navigation, and footer.">
     <meta name="Xian Elric C. Yu" content="YuStrontium29">
 </head>
 <header>
-    <nav aria-label="Main navigation">
-        <li><a class="brand" href="https://tay-lor-ai.github.io/cstable1/index.html" aria-current="page">Main Homepage</a></li>
+    <nav aria-label="nav-list">
+        <li><a class="brand" href="https://tay-lor-ai.github.io/cstable1/index.html" aria-current="page">Home</a></li>
     </nav>
 </header>
 <body>
-    <h2> super secret text</h2>
-    <h5>Yu, Xian Elric C.   Sr30   9-Strontium</h4>
+    <h1 style="text-align: center; margin-bottom: auto;">Strontium Thursday Schedule</h1>
     <table class="center">
         <tr>
             <th>Time During Thursday</th>
@@ -68,10 +66,9 @@
             <td><a href="https://en.wikipedia.org/wiki/Computer_science">Computer Science 3</a></td>
         </tr>
         </table>
-    <img src="./images/aCompressedImageOfMe.png" alt="Supposedly an image of Bettina and I being silly" style="display:block; margin:auto;">
-    <p> Apple </p>
-    <iframe width="788" height="452" src="https://www.youtube.com/embed/WIRK_pGdIdA" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    <img src="https://bluemoji.io/cdn-proxy/646218c67da47160c64a84d5/66b3e5760608f3f68cb0b04b_93.png" alt="my feeling on thursday" style="display:block; margin:auto;" class="right">
+    <iframe width="638" height="375" src="https://www.youtube.com/embed/EQa5c-6GgnE" title="&quot;Touch grass&#39; I CANT. I EATED IT ALL." frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
     allowfullscreen></iframe>
 <style>
     table, th, td 
@@ -93,8 +90,15 @@
     }
     .left
     {
+        position: fixed;
         margin-right: auto;
-        margin-top: 0%;
+        margin-top: auto;
+    }
+    .right
+    {
+        position: fixed;
+        left:1420px;
+        bottom:100px
     }
     td:hover, th:hover
     {
@@ -105,8 +109,12 @@
         text-decoration:underline;
         color: #020d49;
     }
-
-        .nav-list {
+    body
+    {
+    background-color: rgb(230, 210, 200);
+    }
+    .nav-list 
+    {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -119,8 +127,9 @@
     text-decoration: none;
     color: #0066cc;
     }
-
-    .nav-list a[aria-current="page"] {
+    
+    .nav-list a[aria-current="page"] 
+    {
     font-weight: 600;
     }
 </style>
