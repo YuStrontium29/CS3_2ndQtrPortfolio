@@ -10,7 +10,9 @@
 </head>
 <header>
     <nav aria-label="nav-list">
-        <li><a class="brand" href="https://tay-lor-ai.github.io/cstable1/index.html" aria-current="page">Home</a></li>
+        <div class="links">
+            <li><a href="https://tay-lor-ai.github.io/cstable1/index.html" aria-current="page">Home</a></li>
+        </div>
     </nav>
 </header>
 <body>
@@ -70,6 +72,7 @@
     <iframe width="638" height="375" src="https://www.youtube.com/embed/EQa5c-6GgnE" title="&quot;Touch grass&#39; I CANT. I EATED IT ALL." frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
     allowfullscreen></iframe>
+    <p class="right-text">Blue face follows you because he is lonely</p>
 <style>
     table, th, td 
     {
@@ -88,17 +91,18 @@
         margin-left: auto;
         margin-right:auto;
     }
-    .left
-    {
-        position: fixed;
-        margin-right: auto;
-        margin-top: auto;
-    }
     .right
     {
         position: fixed;
         left:1420px;
         bottom:100px
+    }
+    .right-text
+    {
+        text-align: center;
+        position: fixed;
+        left:1520px;
+        bottom:525px
     }
     td:hover, th:hover
     {
@@ -111,26 +115,42 @@
     }
     body
     {
-    background-color: rgb(230, 210, 200);
+        background-color: rgb(246, 233, 255);
+        font-family:Cursive, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
-    .nav-list 
+    .links 
+    {   
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:  #C98B5F;
+        overflow: hidden;
+        float: none;
+        border-radius: 12px;
+    }
+    .links a 
     {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 12px;
+        float: left;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .links a:hover 
+    {
+        background-color: #CED5DA;
+        color: #9c98a9;
     }
 
-    .nav-list a 
+    .links a.active 
     {
-    text-decoration: none;
-    color: #0066cc;
+            background-color: #85AEBF;
+            color: #405159;
     }
-    
-    .nav-list a[aria-current="page"] 
+
+    .links a.active:hover 
     {
-    font-weight: 600;
+            background-color:  #CED5DA;
+            color: #9c98a9;
     }
 </style>
 </body>
