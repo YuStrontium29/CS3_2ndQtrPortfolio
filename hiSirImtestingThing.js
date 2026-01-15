@@ -1,12 +1,3 @@
-let passengers = "rizz";
-let capacity = 100;
+var ab = [1, "two", 3, "4"];
 
-let answer = "You will need: " + Math.ceil(passengers/capacity) + " planes.";
-if (passengers > 0 && typeof(passengers) == Number)
-{
-console.log(answer);
-}
-else
-{
-    console.log("stupid");
-}
+console.log(ab[0] + ab[1]);
